@@ -1,0 +1,15 @@
+n = int(input("Enter a positive integer: "))
+if n < 0:
+    print("Fibonacci is not defined for negative numbers.")
+elif n == 0 or n== 1:
+    print(f"Fibonacci number at position {n} is 1")
+else:
+    a = 1
+    b = 1
+
+    for i in range(2, n+1):
+        c = a+b
+        a = b
+        b = c
+
+        print(f"Fibonacci number at position {n} is {b}")
