@@ -1,0 +1,25 @@
+Step 1: Start
+
+Step 2: Declare Integer size
+
+Step 3: Input size
+
+Step 4: Declare Integer counter
+
+Step 5: Declare Integer Array fib[size]
+
+Step 6: Set counter = 0
+
+Step 7: Start loop: For counter = 0 to size − 1
+
+Step 8: Check condition: If counter = 0 OR counter = 1  If True Go to Step 9  If False  Go to Step 10
+
+Step 9: Set fib[counter] = counter Go to Step 11
+
+Step 10: Set fib[counter] = fib[counter − 1] + fib[counter − 2]
+
+Step 11: Output fib[counter]
+
+Step 12: Repeat loop (Go back to Step 7 until finished)
+
+Step 13: End
